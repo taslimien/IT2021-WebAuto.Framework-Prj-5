@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NYPost Test Script" duration-ms="72279" started-at="2021-04-05T11:13:42 EDT" finished-at="2021-04-05T11:14:54 EDT">
+    <groups>
+    </groups>
+    <test name="NYP Home" duration-ms="72279" started-at="2021-04-05T11:13:42 EDT" finished-at="2021-04-05T11:14:54 EDT">
+      <class name="homepage.NewsPage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:homepage.NewsPage@1f36e637]" name="setUp" is-config="true" duration-ms="35632" started-at="2021-04-05T11:13:42 EDT" finished-at="2021-04-05T11:14:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://nypost.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:homepage.NewsPage@1f36e637]" name="test1" duration-ms="21" started-at="2021-04-05T11:14:18 EDT" finished-at="2021-04-05T11:14:18 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:homepage.NewsPage@1f36e637]" name="cleanUp" is-config="true" duration-ms="416" started-at="2021-04-05T11:14:18 EDT" finished-at="2021-04-05T11:14:18 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- homepage.NewsPage -->
+      <class name="homepage.TestSearchPage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:homepage.TestSearchPage@51cdd8a]" name="setUp" is-config="true" duration-ms="25083" started-at="2021-04-05T11:14:18 EDT" finished-at="2021-04-05T11:14:43 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://nypost.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search()[pri:0, instance:homepage.TestSearchPage@51cdd8a]" name="search" duration-ms="10838" started-at="2021-04-05T11:14:43 EDT" finished-at="2021-04-05T11:14:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:homepage.TestSearchPage@51cdd8a]" name="cleanUp" is-config="true" duration-ms="225" started-at="2021-04-05T11:14:54 EDT" finished-at="2021-04-05T11:14:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- homepage.TestSearchPage -->
+    </test> <!-- NYP Home -->
+  </suite> <!-- NYPost Test Script -->
+</testng-results>

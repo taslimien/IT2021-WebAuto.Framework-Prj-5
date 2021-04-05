@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testing.org/testng-1.0.dtd">
+
+<suite name="Alibaba Test Script" parallel="false">
+
+    <parameter name="url" value="https://www.alibaba.com/"></parameter>
+
+    <test name="ALIBABA Home">
+
+        <classes>
+            <class name="landingpage.HomePage"></class>
+            <class name="landingpage.SearchPage"></class>
+
+        </classes>
+
+
+    </test>
+</suite>

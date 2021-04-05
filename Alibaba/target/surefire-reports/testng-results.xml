@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Alibaba Test Script" duration-ms="13938" started-at="2021-04-05T11:13:25 EDT" finished-at="2021-04-05T11:13:39 EDT">
+    <groups>
+    </groups>
+    <test name="ALIBABA Home" duration-ms="13938" started-at="2021-04-05T11:13:25 EDT" finished-at="2021-04-05T11:13:39 EDT">
+      <class name="landingpage.HomePage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:landingpage.HomePage@1f36e637]" name="setUp" is-config="true" duration-ms="13295" started-at="2021-04-05T11:13:25 EDT" finished-at="2021-04-05T11:13:39 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.alibaba.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:landingpage.HomePage@1f36e637]" name="test1" duration-ms="322" started-at="2021-04-05T11:13:39 EDT" finished-at="2021-04-05T11:13:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:landingpage.HomePage@1f36e637]" name="cleanUp" is-config="true" duration-ms="265" started-at="2021-04-05T11:13:39 EDT" finished-at="2021-04-05T11:13:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- landingpage.HomePage -->
+    </test> <!-- ALIBABA Home -->
+  </suite> <!-- Alibaba Test Script -->
+</testng-results>

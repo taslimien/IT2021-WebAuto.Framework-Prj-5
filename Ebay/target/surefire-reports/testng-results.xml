@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Ebay Test Script" duration-ms="23531" started-at="2021-04-05T11:12:59 EDT" finished-at="2021-04-05T11:13:23 EDT">
+    <groups>
+    </groups>
+    <test name="EBAY Home" duration-ms="23531" started-at="2021-04-05T11:12:59 EDT" finished-at="2021-04-05T11:13:23 EDT">
+      <class name="landingpage.HomePage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:landingpage.HomePage@1f36e637]" name="setUp" is-config="true" duration-ms="6474" started-at="2021-04-05T11:12:59 EDT" finished-at="2021-04-05T11:13:06 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.ebay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:landingpage.HomePage@1f36e637]" name="test1" duration-ms="169" started-at="2021-04-05T11:13:06 EDT" finished-at="2021-04-05T11:13:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:landingpage.HomePage@1f36e637]" name="cleanUp" is-config="true" duration-ms="4122" started-at="2021-04-05T11:13:06 EDT" finished-at="2021-04-05T11:13:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- landingpage.HomePage -->
+      <class name="landingpage.SearchPage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:landingpage.SearchPage@51cdd8a]" name="setUp" is-config="true" duration-ms="3704" started-at="2021-04-05T11:13:10 EDT" finished-at="2021-04-05T11:13:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.ebay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:landingpage.SearchPage@51cdd8a]" name="test2" duration-ms="8551" started-at="2021-04-05T11:13:14 EDT" finished-at="2021-04-05T11:13:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:landingpage.SearchPage@51cdd8a]" name="cleanUp" is-config="true" duration-ms="460" started-at="2021-04-05T11:13:22 EDT" finished-at="2021-04-05T11:13:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- landingpage.SearchPage -->
+    </test> <!-- EBAY Home -->
+  </suite> <!-- Ebay Test Script -->
+</testng-results>
